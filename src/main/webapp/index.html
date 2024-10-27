@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+        body {
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('images/background-index.png'); /* Your background image */
+            background-repeat: no-repeat;
+            background-size: cover; /* Cover the entire viewport */
+        }
+
+        .play-button {
+            font-family: 'Press Start 2P', cursive;
+            padding: 15px 30px; /* Button padding */
+            font-size: 24px; /* Button font size */
+            color: #ffd100; /* Button text color */
+            background-color: #912077; /* Button background color */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Transition effect */
+        }
+
+        .play-button:hover {
+            
+            background-color: #7a36e5; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <a href="login.jsp">
+        <button class="play-button">Play Now</button>
+    </a>
+</body>
+</html>
